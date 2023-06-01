@@ -70,5 +70,11 @@ function buttonEvt() {
     }
   });
 
-  $("#saveBtn").click(function () {});
+  $(".saveBtn").click(function () {
+    window.location.href = "https://www.naver.com/";
+  });
+
+  $("#mypageBtn").click(function () {
+    window.location.href = "mypage.html";
+  });
 }
